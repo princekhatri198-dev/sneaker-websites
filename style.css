@@ -1,0 +1,166 @@
+*,*::before,*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 80vw;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30em;
+  margin-left: 10vw;
+}
+.left {
+  width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+}
+.left img {
+  height: 20px;
+}
+
+.right {
+  width: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.profile-img {
+  height: 30px;
+}
+.shopping-cart {
+  height: 20px;
+}
+.navigation {
+  width: 400px;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  color: hsl(219, 9%, 45%);
+  position: relative;
+}
+section {
+  height: 500px;
+  display: flex;
+  justify-content:center;
+  gap: 100px;
+}
+.big-image img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  object-fit: contain;
+}
+.profile-img {
+  height: 30px;
+}
+.more-image {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.more-image img {
+  width: 55px;
+  height: 55px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+.product-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.product-description
+{
+  width: 400px;
+}
+
+.price::after{
+  content: "50%";
+  display: inline-block;
+  width: 40px;
+  padding-left: 5px;
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-left: 8px;
+}
+.cart-section
+{
+  display: flex;
+}
+.counter{
+  display: inline-block;
+  background-color: hsl(223, 64%, 98%);
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.decrease{
+  height: 30px;
+  width: 30px;
+  position: relative;
+  border: none;
+  background-color: hsl(223, 64%, 98%);
+}
+.decrease::before{
+  position: absolute;
+  content:url(images/icon-minus.svg);
+  top: 5px;
+  left: 8px;
+}
+.increase{
+  height: 30px;
+  width: 30px;
+  border: none;
+  position: relative;
+  background-color: hsl(223, 64%, 98%);
+}
+.increase::before{
+  position: absolute;
+  content:url(images/icon-plus.svg);
+  top: 7px;
+  left: 8px;
+}
+.add-to-cart{
+  background: orange;
+  border: none;
+  border-radius: 5px;
+  font-weight: 550;
+  width: 200px;
+  height: 40px;
+}
+.sneaker-company{
+  display: inline-block;
+  margin-top: 80px;
+}
+.product-description h1{
+  margin-top: 10px;
+}
+.title{
+  margin-top: 20px;
+}
+.price{
+  margin-top: 20px;
+}
+.old-price{
+  margin-top: 10px;
+}
+.cart-section{
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}

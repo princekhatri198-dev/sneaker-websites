@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">
+          <img src="images/logo.svg" alt="" />
+          <div class="navigation">
+            <a href="#" class="link">Collections</a>
+            <a href="#" class="link">Men</a>
+            <a href="#" class="link">Women</a>
+            <a href="#" class="link">About</a>
+            <a href="#" class="link">Contact</a>
+          </div>
+        </div>
+        <div class="right">
+          <img class="shopping-cart" src="images/icon-cart.svg" alt="" />
+          <img class="profile-img" src="images/image-avatar.png" alt="" />
+        </div>
+      </nav>
+    </header>
+
+    <section>
+      <div class="product-image">
+        <div class="big-image">
+          <img src="images/image-product-1.jpg" alt="" />
+        </div>
+        <div class="more-image">
+          <img src="images/image-product-1-thumbnail.jpg" alt="" />
+          <img src="images/image-product-2-thumbnail.jpg" alt="" />
+          <img src="images/image-product-3-thumbnail.jpg" alt="" />
+          <img src="images/image-product-4-thumbnail.jpg" alt="" />
+        </div>
+      </div>
+
+      <div class="product-description">
+        <span class="sneaker-company">SNEAKER COMPANY</span>
+        <h1 class="title">Fall Limited Edition Sneakers</h1>
+        <p>
+          These low-profile sneakers are your perfect casual wear companion.
+          Featuring a durable rubber outer sole, they'll withstand everything
+          the weather can offer.
+        </p>
+        <div class="price-discount">
+          <h2 class="price">$125.00</h2>
+          <p class="old-price">$250.00</p>
+        </div>
+
+        <div class="cart-section">
+          <div class="counter">
+            <button class="decrease" onclick="decrease()"></button>
+            <span id="count">0</span>
+            <button class="increase" onclick="increase()"></button>
+          </div>
+
+          <button class="add-to-cart">Add to cart</button>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
